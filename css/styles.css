@@ -1,0 +1,238 @@
+
+/* 
+Bethany Eckert
+BitWise Project
+Basic Site
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: #D2B48C;
+    font-family: 'Arial';
+}
+
+/* Default links styles*/
+a:link {
+    text-decoration: underline;
+    color: #000000;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:active {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+header {
+    background-image: url(https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-size: contain;
+    height: 250px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    font-size: 60px;
+    font-style: italic;
+    font-family: cursive;
+    text-shadow: 2px 2px #000000;
+    text-align: center;
+}
+
+/* Navigation menu styles */
+
+nav {
+    border: 1px solid #404040;
+    font-size: 20px;
+    font-style: normal;
+    font-family: 'Arial';
+    font-weight: 700;
+}
+
+.nav-menu li {
+  list-style-type: none;
+  display: inline;
+  text-align: center;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 22px;
+  margin-top: 0px;
+  display: inline;
+}
+
+/* In content lists */
+
+contentList {
+    font-size: 18px;
+    font-style: normal;
+    font-family: 'Arial';
+    font-weight: 700;
+}
+
+/* Navigation link styles */
+
+a.bethlist:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a.bethlist:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a.bethlist:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+a.bethlist:active {
+    text-decoration: underline;
+    color: #000000;
+}
+
+/* Internal link styles */
+
+a.myLinks:link {
+    text-decoration: none;
+    color: #000000;
+}
+
+a.myLinks:visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+a.myLinks:hover {
+    text-decoration: underline;
+    color: #936c39;
+}
+
+a.myLinks:active {
+    text-decoration: underline;
+    color: #936c39;
+}
+
+
+/* Sidebar style (right side bar) */
+.sideBar {
+    font-size: 15px;
+    font-style: normal;
+    color: #936c39;
+    font-family: 'Arial';
+    font-weight: 700;
+}
+
+/* Sidebar link styles */
+
+a.sideBarLinks:link {
+    text-decoration: none;
+    color: #936c39;
+}
+
+a.sideBarLinks:visited {
+    text-decoration: none;
+    color: #936c39;
+}
+
+a.sideBarLinks:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+a.sideBarLinks:active {
+    text-decoration: underline;
+    color: #000000;
+}
+
+footer {
+    border: 1px solid black; 
+    text-align: right;
+    color: rgb(126, 84, 0);
+    position: fixed < div id = "footer" >
+}
+
+/* Image Control */
+
+.float-right {
+ float: right;
+ width: 300px;
+ height: 450px;
+ margin: 1rem 1rem 1rem 1rem}
+
+ .float-left {
+ float: left;
+ width: 300px;
+ height: 450px;
+ margin: 1rem 1rem 1rem 1rem}
+
+/* A fancy divider bar */
+
+.line{
+width: 112px;
+height: 47px;
+border-bottom: 1px dotted black;
+position: absolute;
+}
+
+.container {
+    display: flow-root; 
+}
+
+.col-left {
+    width: 80%;
+    float: left; 
+    color: #000000;
+    padding-left: 25px;
+}
+
+.col-right {
+    float: right;
+    color: #000000;
+    padding-left: 20px;
+    padding-top: 15px;
+    height: 600px;
+    width: 20%;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
